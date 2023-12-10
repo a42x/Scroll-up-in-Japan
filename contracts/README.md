@@ -39,23 +39,3 @@ $ forge verify-contract ${INCREMENTAL_BINARY_TREE_ADDRESS} src/utils/Incremental
 ```shell
 $ forge verify-contract ${SEMAPHORE_VOTING_ADDRESS} src/extensions/SemaphoreVoting.sol:SemaphoreVoting --verifier-url https://api-sepolia.scrollscan.com/api --etherscan-api-key  ${SCROLL_SCAN_API_KEY} --watch --libraries src/utils/IncrementalBinaryTree.sol:IncrementalBinaryTree:${INCREMENTAL_BINARY_TREE_ADDRESS} --constructor-args $(cast abi-encode "constructor(address)" ${SEMAPHORE_VERIFIER_ADDRESS})
 ```
-
-## それぞれのコントラクトの簡単な説明
-
-### Pairing.sol
-
-
-### SemaphoreGroups.sol
-
-
-### SemaphoreVerifier.sol
-
-
-### SemaphoreVoting.sol
-
-
-### IncrementalBinaryTree.sol
-
-
-### PoseidonT3.sol
-

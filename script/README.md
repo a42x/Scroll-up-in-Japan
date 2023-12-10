@@ -8,5 +8,5 @@ npm run start
 ### Inputs
 - 配布したsecret valueを入力してください
 - 0か1で今日のworkshopの感想を教えてください
-    - 0 => Good!
-    - 1 => Very good!
+    - 1 => 👍
+    - 0 => 👎
